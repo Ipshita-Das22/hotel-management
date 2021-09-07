@@ -1,0 +1,148 @@
+body{
+background-image:url(login.jfif);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+#header
+{
+font-family:algerian;
+font-size:80px;
+margin:3px;
+padding:3px;
+height:100px;
+background-color:black;
+color: white;
+opacity:0.8;
+border-radius:10px;
+text-align:center;
+}
+
+
+.navbar
+{
+margin-left:3px;
+width:100%;
+color:black;
+font-size:35px
+font-family:algerian;
+}
+
+ul
+{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+li
+{
+float:left;
+width:214.7px;
+height:40px;
+border-radius:15px;
+background-color:black;
+opacity:.9;
+line-height:40px;
+text-align:center;
+margin-left:0px;
+margin-right:0px
+
+}
+
+ul li a
+{
+font-size:22px;
+font-family:algerian;
+margin-right:0px;
+text-decoration-none;
+display:block;
+color:white;
+}
+
+ul li a:hover
+{
+border-radius:10px;
+background-color:darkred;
+}
+
+h2
+{
+text-align:center;
+padding:15px;
+margin-left:-55px;
+color:white;
+margin-bottom:20px;
+}
+
+
+.register
+{
+background-color:black;
+width:550px;
+height:980px;
+margin:0px 0px 0px 500px;
+color:black;
+font-size:22px;
+margin-left:480px;
+opacity:0.9;
+border-radius:10px;
+}
+
+#register
+{
+margin-top:100px;
+margin-left:50px;
+}
+
+label
+{
+color:yellow;
+font-family:algerian;
+font-size:22px;
+font-weight:800;
+}
+
+#name
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border:none; 
+    padding:7px;
+    outline:0;
+    font-family:algerian;
+    font-size:18px;
+    font-weight:600;
+
+}
+
+#mob
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border:none; 
+    padding:0px;
+    outline:0;
+    font-family:algerian;
+    font-size:20px;
+    
+
+}
+
+
+#sub
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border:none; 
+    padding:0px;
+    outline:0;
+    font-family:algerian;
+    font-size:18px;
+    font-weight:600;
+
+}

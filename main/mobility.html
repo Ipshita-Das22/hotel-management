@@ -1,0 +1,76 @@
+<html>
+  <head>
+   <link type="text/css" rel="stylesheet" href="mobss.css"> 
+  </head>
+  <body>
+
+  <div id="header">REGISTRATION FORM</div>
+
+ <div class="navbar">
+            <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="gallery.html ">Gallery</a></li>      
+	<li><a href="login.html ">login</a></li>	
+	<li><a href="about.html ">About</a></li>
+	<li><a href="help.html ">help</a></li>
+           </ul>
+</div>
+
+
+
+     <div class="register">
+	<form method="POST" id="register" action="mobility.php" >
+	<h2>Register Here</h2>
+	
+	<label>FIRST NAME :</label><br>
+	<input type="text" name="firstname" id="name"  placeholder="ENTER YOUR FIRST NAME"><br><br>
+		
+	<label>LAST NAME :</label><br>
+	<input type="text" name="lastname" id="name" placeholder="ENTER YOUR LAST NAME"><br><br>
+	
+
+	<label>MOBILE NUMBER :</label><br>
+	<input type="number" name="number" id="name"  placeholder="ENTER YOUR MOBILE NUMBER"><br><br>
+	
+
+	
+	<label>RENTAL DATE :</label><br>
+	<input type="date" name="rentaldate" id="name" ><br><br>
+
+                 <label>RETURNING DATE :</label><br>
+	<input type="date" name="returndate" id="name" ><br><br>
+
+
+
+	<label>EMAIL :</label><br>
+	<input type="email" name="email" id="name" placeholder="ENTER YOUR EMAIL"><br><br>
+	
+
+	<label>SELECT THE TYPE FOR MOBILITY :</label><br>
+	<select id="mob" name="mobility" >
+	<option value=" " hidden>SELECT</option>
+	<option>RENTAL</option>
+	<option>LUXARY</option>
+	<option>MINIVAN</option>
+	<option>SUV</option>
+	<option>SEDAN</option>
+	<option>HATCHBACK</option>
+	</select><br><br>
+
+
+
+
+	
+	<font face="algerian" color="yellow" ><label>SELECT YOUR GENDER :</label><br><br>
+	<input type="radio" value="male" name="gender" id="male">&nbsp; <b>MALE</b> &nbsp;&nbsp;
+	
+	<input type="radio" value="female" name="gender" id="male">&nbsp; <b>FEMALE</b> &nbsp;&nbsp;
+
+	<input type="radio" value="others" name="gender" id="male">&nbsp; <b>OTHERS</b> &nbsp;&nbsp;<br><br></font>
+
+	<input type="submit" name="submit" value="SUBMIT" id="sub" >
+
+	</form>
+
+  <body>
+</html>

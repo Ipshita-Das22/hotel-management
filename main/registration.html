@@ -1,0 +1,95 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="registration.css" >
+</head>
+
+<body>
+
+  <div id="header">BOOKING FORM</div>
+
+ <div class="navbar">
+            <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="gallery.html ">Gallery</a></li>      
+	<li><a href="login.html ">login</a></li>	
+	<li><a href="food.html ">food</a></li>
+	<li><a href="about.html ">About</a></li>
+	<li><a href="help.html ">help</a></li>
+           </ul>
+</div>
+
+
+
+     <div class="register">
+	<form method="POST" id="register" action="registration.php" >
+	<h2>Register Here</h2>
+	
+	<label>FIRST NAME :</label><br>
+	<input type="text" name="firstname" id="name"  placeholder="ENTER YOUR FIRST NAME"><br><br>
+		
+	<label>LAST NAME :</label><br>
+	<input type="text" name="lastname" id="name" placeholder="ENTER YOUR LAST NAME"><br><br>
+	
+
+	<label>MOBILE NUMBER :</label><br>
+	<input type="number" name="mobileno" id="name"
+          placeholder="ENTER YOUR MOBILE NUMBER"><br><br>
+	
+
+
+<label>NATIONALITY :</label><br>
+	<input type="text" name="nationality" id="name" placeholder="ENTER YOUR NATIONALITY"><br><br>
+	
+
+<label>CHECK-IN :</label><br>
+	<input type="date" name="checkin" id="name" placeholder="ENTER YOUR CHECK-IN DATE"><br><br>
+	
+
+<label>CHECK-OUT :</label><br>
+	<input type="date" name="checkout" id="name" placeholder="ENTER YOUR CHECK-OUT DATE"><br><br>
+
+
+	<label>EMAIL :</label><br>
+	<input type="email" name="email" id="name" placeholder="ENTER YOUR EMAIL"><br><br>
+	
+
+	<label>SELECT THE TYPE FOR ACCOMODATIONS :</label><br>
+	<select id="acco" name="accomodation">
+	<option value=" " hidden>SELECT</option>
+	<optgroup label="ROOM">
+	<option value="single bed">SINGLE BED</option>
+	<option value="double bed">DOUBLE BED</option>
+	<option value="dormatory">DORMATORY</option>
+	<option value="luxary">LUXARY</option>
+	<option value="ac single bed">AC SINGLE BED</option>
+	<option value="ac double bed">AC DOUBLE BED</option>
+	</optgroup>                     
+	
+	<optgroup label="POOL">
+	<option value="day pool">DAY POOL</option>
+	<option value="night pool">NIGHT POOL</option>
+	</optgroup>
+	
+	<option value="pub">PUB</option>
+	<option value="party hall">PARTY HALL</option>
+	<option value="meeting hall">MEETING HALL</option>
+	<option value="wedding hall">WEDDING HALL</option>
+	</select><br><br>
+
+	
+		<font face="algerian" color="yellow" ><label>SELECT YOUR GENDER :</label><br><br>
+	<input type="radio" name="gender" id="male" value="male">&nbsp; <b>MALE</b> &nbsp;&nbsp;
+	
+	<input type="radio" name="gender" id="male" value="female">&nbsp; <b>FEMALE</b> &nbsp;&nbsp;
+
+	<input type="radio" name="gender" id="male" value="others">&nbsp; <b>OTHERS</b> &nbsp;&nbsp;<br><br></font>
+
+	<input type="submit" value="SUBMIT" id="sub" name="submit">
+
+	</form>
+
+
+
+</body>
+
+</html>
