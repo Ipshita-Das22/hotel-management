@@ -1,2 +1,2 @@
 # hotel-management
-hotel management basic web design using html, css, and php.
+hotel management basic web design(front-end) using html and css.
